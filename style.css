@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: "Roboto";
 }
 
 .logo {
@@ -122,4 +123,29 @@ a {
     border-radius: 8px;
     height: 100px;
     width: 100px;
+}
+
+/* QUOTE */
+
+.container-quote {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 64px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    max-width: 632px;
+}
+
+.author {
+    text-align: right;
+    min-width: 632px;
+    font-weight: bold;
+
 }
