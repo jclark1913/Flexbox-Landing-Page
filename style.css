@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+}
+
+.logo {
+    color: #F9FAF8;
+}
+
+/* STYLE CHANGES */
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+/* CONTAINERS FOR FLEXBOX */
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 16px 64px;
+}
+
+.header-links {
+    display: flex;
+    gap: 8px;
+}
+
+.container-hero {
+    display: flex;
+    padding: 32px 64px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    max-width: 450px;
+    min-height: 200px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-description {
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 4px;
+    padding: 8px 24px;
+    border: 0px;
+}
+
+.hero-right {
+    flex: 1;
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    flex-direction: column;
+    max-width: 450px;
+    min-height: 200px;
+}
+
