@@ -6,6 +6,7 @@ body {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: bold;
 }
 
 /* STYLE CHANGES */
@@ -21,9 +22,10 @@ a {
 
 .container-header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #1F2937;
-    padding: 16px 64px;
+    justify-content: center;
+    gap: 400px;
 }
 
 .header-links {
@@ -37,11 +39,12 @@ a {
 
 .container-hero {
     display: flex;
-    padding: 32px 64px;
+    padding: 0px 64px;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
+    min-height: 500px;
 }
 
 .hero-left {
@@ -103,7 +106,7 @@ a {
 .info-wrapper {
     display: flex;
     padding: 32px 64px;
-    gap: 16px;
+    gap: 32px;
     justify-content: center;
     text-align: center;
 }
@@ -121,8 +124,8 @@ a {
 .info-box {
     border: 2px solid #3882F6;
     border-radius: 8px;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 }
 
 /* QUOTE */
@@ -166,7 +169,8 @@ a {
     gap: 16px; 
     height: 80px;
     min-width: 500px;
-    max-width: 700px;
+    max-width: 900px;
+    min-height: 125px;
     flex: 1;
     border:5px solid #3882F6;
     border-radius: 8px;
@@ -191,6 +195,14 @@ a {
     font-weight: bold;
 }
 
+.call-button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
 /* FOOTER */
 
 .footer {
@@ -200,4 +212,5 @@ a {
     background-color: #1F2937;
     height: 70px;
     color: #E5E7EB;
+    flex 1 0 0;
 }
